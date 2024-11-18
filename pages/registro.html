@@ -10,16 +10,16 @@
     <nav>
         <ul>
             <li>
-                <a href="../index.html">Inicio</a>
+                <a href="../index.html">Página Principal</a>
             </li>
             <li>
-                <a href="#">Productos</a>
+                <a href="./novedadescine.html">Novedades Cine</a>
             </li>
             <li>
-                <a href="#">Carrito</a>
+                <a href="./mundogeek.html">Novedades Geek</a>
             </li>
             <li>
-                <a href="#">LogIn</a>
+                <a href="./registro.html">Iniciar Sesión</a>
             </li>
         </ul>
     </nav>
@@ -32,9 +32,14 @@
 <h1>Regístrate</h1>
  <form>
     <div>
-        <label for="fname">First name</label>
+        <label for="fname">Nombre</label>
         <br>
-        <input type="text" name="fname" id="fname" placeholder="First name">
+        <input type="text" name="fname" id="fname" placeholder="Nombre">
+    </div>
+    <div>
+        <label for="lname">Apellido</label>
+        <br>
+        <input type="text" name="lname" id="lname" placeholder="Apellido">
     </div>
     <br> <!-- Salto de línea -->
     <div>
@@ -42,29 +47,34 @@
        <br> 
        <input type="email" name="inputEmail" id="inputEmail" placeholder="user@correo.com">
     </div>
+    <br>
     <div>
-        <label for="cname">Country name</label>
+        <label for="cname">Región</label>
         <br>
         <select name="cname" id="cname">
             <option value="mx">México</option>
             <option value="col">Colombia</option>
             <option value="arg">Argentina</option>
             <option value="per">Perú</option>
-            <option value="chi">Chile</option>
+            <option value="esp">España</option>
+            <option value="uk">Reino Unido</option>
+            <option value="eua">Estados Unidos</option>
         </select>
     </div>
     <br>
     <div>
-        <p>Gender</p>
-        <input type="radio" name="gender" id="male" value="Males">
-        <label for="gender">Male</label>
-        <br>
-        <input type="radio" name="gender" id="female" value="Females">
-        <label for="gender">Female</label>
-        <br>
-        <input type="radio" name="gender" id="other" value="Other">
-        <label for="gender">Other</label>
-    </div>
+        
+        <div>
+            <label for="gender">Género</label>
+            <br>
+            <select name="gender" id="gender">
+                <option value="H">Hombre</option>
+                <option value="M">Mujer</option>
+                <option value="NB">No binoario</option>
+                <option value="TG">Transgénero</option>
+                <option value="O">Otro</option>
+            </select>
+
     <br>
     <div>
         <input type="checkbox" name="LegalPolicy" id="legalpolicy" value="true"> 
@@ -72,17 +82,17 @@
     </div>
     <div>
         <input type="checkbox" name="recibircorreos" id="recibircorreos" value="true"> 
-        <label for="recibircorreos">Acepta recibir correos con promociones y exclusivas</label>
+        <label for="recibircorreos">Acepta recibir correos con promociones y exclusivas del mundo del geek</label>
     </div>
     <br><br>
     <div>
-        <button type="submit">Sign Up</button>
+        <button type="submit">Regístrate</button>
     </div>
 </form>
 <hr>
  <!-- Pie de página -->
 <footer>
-    <h5>Todos los derechos reservados Angel Estrada Fotografía.</h5>
+    <h5>Todos los derechos reservados Mundo Tech para Todos.</h5>
 </footer>
 <body>
     <a href="../index.html">⬅ Volver a Inicio</a>
